@@ -9,6 +9,6 @@ public class Chocolate
 	
 	public Chocolate()
 	{
-		System.out.println("no argument lists");
+		System.out.println("no argument lists test");
 	}
 }
