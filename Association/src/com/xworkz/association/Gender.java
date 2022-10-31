@@ -1,4 +1,4 @@
-package com.xworkz.Association;
+package com.xworkz.association;
 
 public enum Gender 
 {

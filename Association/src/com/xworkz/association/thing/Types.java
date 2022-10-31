@@ -1,4 +1,4 @@
-package com.xworkz.Association.thing;
+package com.xworkz.asssociation.thing;
 
 public enum Types 
 {

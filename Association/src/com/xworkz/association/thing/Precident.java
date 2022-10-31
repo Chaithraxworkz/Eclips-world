@@ -1,6 +1,6 @@
-package com.xworkz.Association.thing;
+package com.xworkz.association.thing;
 
-import com.xworkz.Association.Gender;
+import com.xworkz.association.Gender;
 
 public class Precident
 {

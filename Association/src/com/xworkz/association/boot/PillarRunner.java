@@ -1,5 +1,5 @@
-package com.xworkz.Association.boot;
-import com.xworkz.Association.thing.*;
+package com.xworkz.association.boot;
+import com.xworkz.association.thing.*;
 
 
 public class PillarRunner {

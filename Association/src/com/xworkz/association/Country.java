@@ -1,7 +1,7 @@
-package com.xworkz.Association;
+package com.xworkz.association;
 
-import com.xworkz.Association.thing.City;
-import com.xworkz.Association.thing.Precident;
+import com.xworkz.association.thing.City;
+import com.xworkz.association.thing.Precident;
 
 public class Country 
 {

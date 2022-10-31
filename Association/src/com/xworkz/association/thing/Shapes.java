@@ -1,4 +1,4 @@
-package com.xworkz.Association.thing;
+package com.xworkz.association.thing;
 
 public enum Shapes 
 {

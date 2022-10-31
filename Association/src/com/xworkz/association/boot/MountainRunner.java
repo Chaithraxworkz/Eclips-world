@@ -1,6 +1,6 @@
-package com.xworkz.Association.boot;
+package com.xworkz.association.boot;
 
-import com.xworkz.Association.thing.Mountain;
+import com.xworkz.association.thing.Mountain;
 
 public class MountainRunner {
 

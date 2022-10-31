@@ -1,5 +1,5 @@
-package com.xworkz.Association.thing;
-import com.xworkz.Association.thing.*;
+package com.xworkz.association.thing;
+import com.xworkz.association.thing.*;
 public class Pillar 
 {
 	public long id;

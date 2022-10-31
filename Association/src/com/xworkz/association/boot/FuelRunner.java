@@ -1,7 +1,7 @@
-package com.xworkz.Association.boot;
+package com.xworkz.association.boot;
 
-import com.xworkz.Association.thing.Fuel;
-import com.xworkz.Association.thing.Types;
+import com.xworkz.association.thing.Fuel;
+import com.xworkz.association.thing.Types;
 
 public class FuelRunner {
 

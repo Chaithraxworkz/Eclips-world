@@ -1,9 +1,9 @@
-package com.xworkz.Association.boot;
-import com.xworkz.Association.Gender;
-import com.xworkz.Association.Country;
-import com.xworkz.Association.thing.City;
-import com.xworkz.Association.thing.Name;
-import com.xworkz.Association.thing.Precident;
+package com.xworkz.association.boot;
+import com.xworkz.association.Gender;
+import com.xworkz.association.Country;
+import com.xworkz.association.thing.City;
+import com.xworkz.association.thing.Name;
+import com.xworkz.association.thing.Precident;
 
 public class CountryRunner 
 {
