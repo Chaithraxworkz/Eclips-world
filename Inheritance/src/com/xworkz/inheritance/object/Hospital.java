@@ -40,8 +40,8 @@ public class Hospital
 		if(obj instanceof Hospital)
 		{
 			Hospital hospital=(Hospital)obj;
-			if(this.disease.equals(hospital.disease) && this.doctoeName.equals(hospital.doctoeName) && this.age.equals(hospital.age)
-				this.type.equals(hospital.type) && this.appointment.equals(hospital.appointment) && this.patientName.equals(hospital.patientName) && this.loction.equals(hospital.loction))
+			if(this.disease.equals(hospital.disease) && this.doctoeName.equals(hospital.doctoeName) && this.age==hospital.age &&
+				this.type.equals(hospital.type) && this.appointment==hospital.appointment && this.patientName.equals(hospital.patientName) && this.loction.equals(hospital.loction))
 			{
 				System.out.println("Patient details are true, it will be print");
 				return true;

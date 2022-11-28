@@ -38,8 +38,8 @@ public class Lipstick
 		if(obj instanceof Lipstick)
 		{
 			Lipstick stick=(Lipstick)obj;
-			if(this.brand.equals(stick.brand) && this.expDate.equals(stick.expDate) && this.gram.equals(stick.gram) && this.price.equals(stick.price
-			this.type.equals(stick.type) && this.color.equals(stick.color) && this.quantity.equals(stick.quantity) && this.rating.equals(stick.rating)))
+			if(this.brand.equals(stick.brand) && this.expDate==stick.expDate && this.gram.equals(stick.gram) && this.price==stick.price &&
+			this.type.equals(stick.type) && this.color.equals(stick.color) && this.quantity==stick.quantity && this.rating==stick.rating)
 			{
 				System.out.println("Can check the lipstick");
 				return true;

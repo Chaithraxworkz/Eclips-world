@@ -40,7 +40,7 @@ public class Institution
 		{
 			Institution institute=(Institution)other;
 			if(this.hr.equals(institute.hr) && this.location.equals(institute.location) && this.name.equals(institute.name)
-			&& this.fees.equals(institute.fees) && this.noOfStudents.equals(institute.noOfStudents)&& this.s_Name.equals(institute.s_Name))
+			&& this.fees==institute.fees && this.noOfStudents==institute.noOfStudents && this.s_Name.equals(institute.s_Name))
 			{
 				System.out.println("Teaching is good in that Institution");
 				return true;

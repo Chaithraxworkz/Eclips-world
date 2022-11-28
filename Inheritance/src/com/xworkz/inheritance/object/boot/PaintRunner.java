@@ -26,7 +26,7 @@ public class PaintRunner {
 		System.out.println(paint);
 		
 		
-		Paint paint2=new Paint("Asian", "aaa", 500, 1.0, "Red", "Enamal paint", "chemical", "Cpt", true);
+		Paint paint2=new Paint("Asian", "paint", 500, 1.0, "Red", "Enamal paint", "chemical", "Cpt", true);
 		System.out.println(paint2);
 		paint=paint2;
 		boolean same=paint.equals(paint2);
@@ -84,18 +84,17 @@ public class PaintRunner {
 		God god=new God("Lakshmi", "F", "coin", "Kadga", "give money", 5.6);
 		System.out.println(god);
 		
-		God god2=new God("Lakshmi", "F", "coin", "Kadga", "give money", 5.6);
+		God god2=new God("Shiva", "T", "coin", "Kadga", "give money", 5.6);
 		System.out.println(god2);
 		
-		god=god2;
 		boolean swag=god.equals(god2);
 		System.out.println(swag);
 
 		System.out.println("=================================");
-		Currency currency=new Currency("INR", "Rupee", "RBI", "Reserve Bank", "circular", 2019, "Green", "National Emblem", 02009, "Limited");
+		Currency currency=new Currency("INR", "Rupee", "RBI", "Reserve Bank", "circular", 2019, "Green", "National Emblem", 2009, "Limited");
 		System.out.println(currency);
 		
-		Currency currency2=new Currency("INR", "Rupee", "RBI", "Reserve Bank", "circular", 2019, "Green", "National Emblem", 02009, "Limited");
+		Currency currency2=new Currency("INR", "Rupee", "RBI", "Reserve Bank", "circular", 2019, "Green", "National Emblem", 2009, "Limited");
 		System.out.println(currency2);
 		
 		currency=currency2;

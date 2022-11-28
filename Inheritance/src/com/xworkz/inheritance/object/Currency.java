@@ -38,7 +38,7 @@ public class Currency
 		if(object instanceof Currency)
 		{
 			Currency currency=(Currency)object;
-			if(this.bank.equals(currency.bank) && this.code.equals(currency.code) && this.dateOfIssue.equals(currency.dateOfIssue)
+			if(this.bank.equals(currency.bank) && this.code.equals(currency.code) && this.dateOfIssue==currency.dateOfIssue
 					&& this.noteColor.equals(currency.noteColor) && this.coinShape.equals(currency.coinShape))
 			{
 				System.out.println("reverse bank of india is given a coins");

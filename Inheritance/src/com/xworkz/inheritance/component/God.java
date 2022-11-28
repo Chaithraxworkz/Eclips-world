@@ -6,7 +6,7 @@ public class God
 	private String gender;
 	private String weapon;
 	private String mainPower;
-	private String usage;
+	private String use;
 	private double weight;
 	
 	public God()
@@ -20,7 +20,7 @@ public class God
 		this.gender = gender;
 		this.weapon = weapon;
 		this.mainPower = mainPower;
-		this.usage = usage;
+		this.use = use;
 		this.weight = weight;
 	}
 	@Override
@@ -28,9 +28,10 @@ public class God
 	{
 		if(other instanceof God)
 		{
+			System.out.println("god is real");
 			God god=(God)other;
-			if(this.gender.equals(god.gender) && this.name.equals(god.name) && this.mainPower.equals(god.mainPower)
-				this.usage.equals(god.usage) && this.weapon.equals(god.weapon))
+			if(this.gender.equals(god.gender) && this.name.equals(god.name) && this.mainPower.equals(god.mainPower) &&
+					this.use.equals(god.use) && this.weapon.equals(god.weapon))
 					{
 						System.out.println("god weapons are strong");
 						return true;
@@ -82,12 +83,12 @@ public class God
 		this.mainPower = mainPower;
 	}
 
-	public String getUsage() {
-		return usage;
+	public String getUse() {
+		return use;
 	}
 
-	public void setUse(String usage) {
-		this.usage = usage;
+	public void setUse(String use) {
+		this.use = use;
 	}
 
 	public double getWeight() {
@@ -97,8 +98,5 @@ public class God
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
-	
-	
-	
 	
 }

@@ -42,7 +42,7 @@ public class Vehicle
 			Vehicle vehicle=(Vehicle)obj;
 			if(this.name.equals(vehicle.name)&& this.inventor.equals(vehicle.inventor) && this.manufacture.equals(vehicle.manufacture))
 			{
-				System.out.println("It ia a new car");
+				System.out.println(" car is same");
 				return true;
 			}
 		}
