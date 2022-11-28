@@ -19,6 +19,7 @@ public class TrippleRide
 			if(word.equals(repeate[i]))
 			count++;
 		}
+		System.out.println("The" + word + "repete" + count + "in the sentence");
 		System.out.println("Rangayana Raghu as lead characters");
 		
 		System.out.println("=============================================");
@@ -68,11 +69,11 @@ public class TrippleRide
 			{
 				if(duplicate[i]==duplicate[j] && duplicate[i]!= ' ')
 				{
-					count++;
+					count1++;
 					duplicate[j]='0';
 				}
-				if(count>1 && duplicate[i]!='0')
-					System.out.println("duplicates are =" + duplicate[j]);
+				if(count1>1 && duplicate[i]!='0')
+					System.out.println("duplicates charecters are =" + duplicate[j]);
 			}
 		}
 		
