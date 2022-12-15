@@ -43,6 +43,12 @@ public class AbsractAuditDTO implements Serializable
 		return updatedBy;
 	}
 
+	@Override
+	public String toString() {
+		return "AbsractAuditDTO [createdBy=" + createdBy + ", createdDate=" + createdDate + ", updatedBy=" + updatedBy
+				+ ", updatedDate=" + updatedDate + "]";
+	}
+
 	public void setUpdatedBy(String updatedBy) {
 		this.updatedBy = updatedBy;
 	}

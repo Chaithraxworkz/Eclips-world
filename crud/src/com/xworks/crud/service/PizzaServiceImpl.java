@@ -9,61 +9,59 @@ public class PizzaServiceImpl implements PizzaService {
 	public boolean validateandsave(PizzaDTO dto)
 	{
 		System.out.println("running validateAndSave"+ dto);
-		String name=dto.getName();
-		String company=dto.getCompany();
-		PizzaSize size=dto.getSize();
-		double price=dto.getPrice();
-		String flavour=dto.getFlavour();
-		String type=dto.getType();
-		boolean cheese=dto.isCheese();
 		
 		boolean validname = true;
 		boolean validprice = false;
-		if(name!=null && name.length()>=4 && name.length()<=20)
+		if( dto.getName().length()>=4 && dto.getName().length()<=20)
 		{
-			System.out.println("valid pizza name" +name);
+			System.out.println("running validateAndSave"+ dto);
+			System.out.println("valid pizza name" +dto.getName());
 			validname=true;
 		}
 		else
 		{
-			System.out.println("invalid pizza name" +name);
+			System.err.println("invalid pizza name" +dto.getName());
 		}
-		if(price>=50 && price<=2000)
+		if(dto.getPrice()>=50 && dto.getPrice()<=2000)
 		{
-			System.out.println("valid price" + price);
+			System.out.println("running validateAndSave"+ dto);
+			System.out.println("valid price" + dto.getPrice());
 			validprice=true;
 		}
 		else
 		{
-			System.out.println("invaalid price" +price);
+			System.out.println("invaalid price" + dto.getPrice());
 		}
-		if(company!=null && company.length()>=4 && company.length()<=20)
+		if( dto.getCompany().length()>=4 && dto.getCompany().length()<=20)
 		{
-			System.out.println("valid company" +company);
+			System.out.println("running validateAndSave"+ dto);
+			System.out.println("valid company" +dto.getCompany());
 			boolean validcompany = true;
 		}
 		else
 		{
-			System.out.println("invalid company" +company);
+			System.out.println("invalid company" +dto.getCompany());
 		}
 		
-		if(flavour!=null && flavour.length()>=3 && flavour.length()<=20)
+		if(  dto.getFlavour().length()>=3 && dto.getFlavour().length()<=20)
 		{
-			System.out.println("valid flavour" +flavour);
+			System.out.println("running validateAndSave"+ dto);
+			System.out.println("valid flavour" +dto.getFlavour());
 			boolean validflavour = true;
 		}
 		else
 		{
-			System.out.println("invalid flavour" +flavour);
+			System.out.println("invalid flavour" +dto.getFlavour());
 		}
-		if(type!=null && type=="veg" && type=="Nonveg")
+		if( dto.getType()=="veg" && dto.getType()=="Nonveg")
 		{
-			System.out.println("valid type " +type);
+			System.out.println("running validateAndSave"+ dto);
+			System.out.println("valid type " +dto.getType());
 			boolean validtype = true;
 		}
 		else
 		{
-			System.out.println("invalid type"+ type);
+			System.out.println("invalid type"+ dto.getType());
 		}
 		return false;
 	}

@@ -14,13 +14,13 @@ public class PizzaDTO extends AbsractAuditDTO
 	private String flavour;
 	private String type;
 	
+	
 	@Override
 	public String toString() {
 		return "PizzaDTO [name=" + name + ", company=" + company + ", size=" + size + ", cheese=" + cheese + ", price="
-				+ price + ", flavour=" + flavour + ", type=" + type + ", getCreatedBy()=" + getCreatedBy()
-				+ ", getCreatedDate()=" + getCreatedDate() + ", getUpdatedBy()=" + getUpdatedBy() + ", getUpdatedDate()="
-				+ getUpdatedDate() + "]";
+				+ price + ", flavour=" + flavour + ", type=" + type + ", toString()=" + super.toString() + "]";
 	}
+	
 	public PizzaDTO() 
 	{
 		

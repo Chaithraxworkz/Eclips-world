@@ -11,11 +11,14 @@ public class PizzaRunner {
 
 	public static void main(String[] args) 
 	{
-		PizzaDTO dto=new PizzaDTO("Goldencorn", "Pizza Hot" , PizzaSize.MEDIUM,  true, 150 , "Spicy", "veg", "SYSTEM", LocalDateTime.now(), "SYSTEM", LocalDateTime.now());
-		
+		PizzaDTO dto=new PizzaDTO("Golden Corn", "Pizza Hot" , PizzaSize.MEDIUM,  true, 150 , "Spicy", "veg" );
+		dto.setCreatedBy("SYSTEM");
+		dto.setCreatedDate(LocalDateTime.now());
+		dto.setUpdatedBy( "SYSTEM");
+		dto.setUpdatedDate(LocalDateTime.now());
 		PizzaService service=new PizzaServiceImpl();
-		boolean saved = PizzaService.validateAndSave(PizzaDTO);
-		System.out.println(saved);
+		service.validateandsave(dto);
+		
 	}
 
 }
