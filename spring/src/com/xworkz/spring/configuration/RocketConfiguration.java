@@ -9,8 +9,8 @@ import com.xworkz.spring.bean.Season;
 
 
 
-@Configuration
-@ComponentScan("com.xworkz.spring")
+//@Configuration
+//@ComponentScan("com.xworkz.spring")
 public class RocketConfiguration 
 {
 	public RocketConfiguration() 
