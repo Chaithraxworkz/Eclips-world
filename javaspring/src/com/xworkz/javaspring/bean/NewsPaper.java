@@ -8,11 +8,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class NewsPaper 
 {
-	@Value("248")
+	@Autowired
+	@Qualifier("paperid")
 	private int id;
 	private String name;
 	private String ownerName;
-	@Value("Kannada")
+	@Autowired
+	@Qualifier("paperlanguage")
 	private String language;
 	private double price;
 	
@@ -30,6 +32,7 @@ public class NewsPaper
 		return "NewsPaper [id=" + id + ", name=" + name + ", ownerName=" + ownerName + ", language=" + language
 				+ ", price=" + price + "]";
 	}
+	
 	
 	@Value("5")
 	public void setPrice(double price) 

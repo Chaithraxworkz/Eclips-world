@@ -15,7 +15,7 @@ public class Ghost
 	private int age;
 	private String gender;
 	@Value("2023-08-05")
-	private LocalDate dateOfDeath;
+	private String dateOfDeath;
 	@Value("4.5")
 	private double nails;
 	@Value("5.9")

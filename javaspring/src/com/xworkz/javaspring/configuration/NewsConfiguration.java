@@ -14,6 +14,11 @@ public class NewsConfiguration
 	{
 		System.out.println("Running the NewsConfiguration");
 	}
+	@Bean
+	public int paperid()
+	{
+		return 248;
+	}
 
 	@Bean
 	public String papername()
@@ -28,6 +33,16 @@ public class NewsConfiguration
 		return "Hareesha";
 	}
 	@Bean
+	public String paperlanguage()
+	{
+		return "Kannada";
+	}
+	@Bean
+	public double paperprice()
+	{
+		return 5;
+	}
+	@Bean
 	public String nameOfEngine()
 	{
 		System.out.println("Registering nameOfEngine");
@@ -37,6 +52,11 @@ public class NewsConfiguration
 	public String typeOFEngine()
 	{
 		System.out.println("Registering typeOFEngine");
+		return "Motor";
+	}
+	@Bean
+	public String companyname()
+	{
 		return "Bajaj";
 	}
 	@Bean
