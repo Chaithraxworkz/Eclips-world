@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
 import com.xworkz.soldger.dto.SoldgerDTO;
 import com.xworkz.soldger.repository.SoldgerRepo;
 
-import io.quarkus.arc.runtime.BeanContainer.Factory;
 import lombok.Setter;
 
 public class SoldgerServiceImpl implements SoldgerService 
@@ -40,7 +39,7 @@ public class SoldgerServiceImpl implements SoldgerService
 		{
 			System.out.println("error of validate :");
 			
-			violations.forEach(c->  System.out.println(c.getMessage()));
+			violations.forEach(c-> { System.out.println(c.getMessage());});
 			return false;
 		}
 		else
