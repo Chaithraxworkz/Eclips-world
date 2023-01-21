@@ -19,6 +19,7 @@ public class WhiteSpaceCount
 	{
 		res=WhiteSpaceCount.spacecount("I am Chaithra");
 		System.out.println("the number of spaces are :" + res);
+		
 	}
 
 }

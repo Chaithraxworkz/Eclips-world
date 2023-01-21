@@ -15,6 +15,10 @@ public class AbsractAuditDTO implements Serializable
 		System.out.println("running abstract");
 	}
 	
+	public AbsractAuditDTO(String createdBy )
+	{
+		this.createdBy=createdBy;
+	}
 	public AbsractAuditDTO(String createdBy, LocalDateTime createDate, String updatedBy, LocalDateTime updateDate) {
 		super();
 		this.createdBy = createdBy;

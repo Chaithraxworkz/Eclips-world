@@ -122,6 +122,15 @@ public class IplRunner {
 		dto10.setCreatedDate(LocalDateTime.of(2022, 06, 20, 8, 35));
 		
 		repo.create(dto);
+		repo.create(dto2);
+		repo.create(dto3);
+		repo.create(dto4);
+		repo.create(dto5);
+		repo.create(dto6);
+		repo.create(dto7);
+		repo.create(dto8);
+		repo.create(dto9);
+		repo.create(dto10);
 	}
 
 }
