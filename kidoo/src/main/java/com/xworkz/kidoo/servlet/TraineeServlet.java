@@ -1,0 +1,23 @@
+package com.xworkz.kidoo.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet(loadOnStartup = 7 , urlPatterns = "/xworkz")
+public class TraineeServlet extends HttpServlet
+{
+	public TraineeServlet() 
+	{
+		System.out.println("Created the Trainee");
+	}
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
+	{
+		System.out.println("Running the doGet trainee");
+	}
+}
