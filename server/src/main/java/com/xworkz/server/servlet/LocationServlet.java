@@ -100,6 +100,8 @@ public class LocationServlet extends HttpServlet
 		}
 		writer.print("<br>");
 		writer.print("<a href=\"Location.html\">Back</a>");
+		writer.print("<br>");
+		writer.print("<a href=\"index.html\">Home</a>");
 		writer.print("</span>");
 		writer.print("</h1>");
 		writer.print("</body>");

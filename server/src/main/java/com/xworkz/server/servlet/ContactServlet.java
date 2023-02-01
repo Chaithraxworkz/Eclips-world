@@ -86,6 +86,8 @@ public class ContactServlet extends HttpServlet
 		}
 		writer.print("<br>");
 		writer.print("<a href=\"Content.html\">Back</a>");
+		writer.print("<br>");
+		writer.print("<a href=\"index.html\">Home</a>");
 		writer.print("</span>");
 		writer.print("</h1>");
 		writer.print("</body>");

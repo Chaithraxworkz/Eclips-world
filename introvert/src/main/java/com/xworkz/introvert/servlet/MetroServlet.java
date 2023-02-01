@@ -24,6 +24,10 @@ public class MetroServlet extends HttpServlet
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
 	{
 		System.out.println("Running the doGet metro");
+		String data = "displaying data as get";
+		PrintWriter writer = resp.getWriter();
+		writer.print(data);
+		resp.setContentType("text/plain");
 	}
 	@Override
 	protected void doOptions(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
@@ -40,7 +44,7 @@ public class MetroServlet extends HttpServlet
 		System.out.println("running the doPost in metro");
 		String ref = "Create the spring in the post method";
 		PrintWriter writer = resp.getWriter();
-		writer.print(5);
+		writer.print(ref);
 		resp.setContentType("text/plain");
 	}
 	@Override
@@ -52,6 +56,10 @@ public class MetroServlet extends HttpServlet
 	protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
 	{
 		System.out.println("running the doPut in metro...");
+		String data = "displaying Server as put";
+		PrintWriter writer = resp.getWriter();
+		writer.print(data);
+		resp.setContentType("text/plain");
 	}
 	@Override
 	protected void doTrace(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 

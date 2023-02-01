@@ -41,6 +41,10 @@ public class SoftwareCompanyServlet extends HttpServlet
 		String Fields = req.getParameter("field");
 		String Website = req.getParameter("website");
 		String ManagerName = req.getParameter("manager");
+		String NoOfBranches = req.getParameter("branches");
+		String WorkFromOffice = req.getParameter("office");
+		String Roles = req.getParameter("roles");
+		String AreaServed = req.getParameter("area");
 		
 		System.out.println(CompanyName);
 		System.out.println(FounderName);
@@ -58,6 +62,10 @@ public class SoftwareCompanyServlet extends HttpServlet
 		System.out.println(Fields);
 		System.out.println(Website);
 		System.out.println(ManagerName);
+		System.out.println(NoOfBranches);
+		System.out.println(WorkFromOffice);
+		System.out.println(Roles);
+		System.out.println(AreaServed);
 		
 		PrintWriter writer = resp.getWriter();
 		writer.print("<html>");
@@ -72,4 +80,5 @@ public class SoftwareCompanyServlet extends HttpServlet
 		resp.setContentType("text/html");
 		
 	}
+	
 }
