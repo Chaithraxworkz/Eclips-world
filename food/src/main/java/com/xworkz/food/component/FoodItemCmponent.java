@@ -13,15 +13,16 @@ public class FoodItemCmponent
 	{
 		System.out.println("created the FoodItemCmponent");
 	}
+	
 	@PostMapping
-	private String onSend(@RequestParam String foodname, @RequestParam String type, @RequestParam int Quantity,
-			@RequestParam double Price) 
+	private String onSend(@RequestParam String name, @RequestParam String type, @RequestParam String quantity,
+			@RequestParam String price) 
 	{
 		System.out.println("Running to onSend :");
-		System.out.println("foodname :"+ foodname);
+		System.out.println("foodname :"+ name);
 		System.out.println("type :" + type);
-		System.out.println("Quantity :" + Quantity);
-		System.out.println("Price :" + Price);
-		return "FoodItem.jsp";
+		System.out.println("Quantity :" + quantity);
+		System.out.println("Price :" + price);
+		return "index.jsp";
 	}
 }

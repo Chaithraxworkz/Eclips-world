@@ -5,7 +5,6 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>X-Workz</title>
-</head>
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -14,6 +13,8 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 	crossorigin="anonymous"></script>
+</head>
+
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <body>
@@ -21,7 +22,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
 		<a class="navbar-brand" href="#"> <img
 			src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
-			width="85" height="50" alt="">
+			width="30" height="30" alt="">
 		</a> <a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
@@ -58,13 +59,12 @@
 	</nav>
 <body>
 	<h2>Food Items are here to Serve</h2>
-	<form action="food" method="get">
+	<form action="share" method="post">
 
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Food
-				item name</label> <input type="text" class="form-control" name="foodName"
-				id="exampleFormControlInput1" placeholder="food iteam">
-		</div>
+		<div class="form-group">
+    <label for="exampleFormControlInput1">Name of the food</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="food name" name="name">
+  </div>
 		<div>
 			<select class="custom-select" id="inputGroupSelect01" name="type">
 				<option selected>Choose...</option>
@@ -83,7 +83,7 @@
 				id="exampleFormControlInput1" placeholder="food iteam price"
 				name="price">
 		</div>
-		<button type="submit" class="btn btn-success">Place Order</button>
+		<input type="submit" value="Place order">
 	</form>
 
 

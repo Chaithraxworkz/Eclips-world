@@ -16,10 +16,8 @@
 	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
 	crossorigin="anonymous"></script>
 </head>
-
-
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
 		<a class="navbar-brand" href="#"> <img
 			src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
 			width="30" height="30" alt="">
@@ -52,11 +50,11 @@
 				</li>
 			</ul>
 			
-				<a href="FoodItem.jsp">Food Item</a>
+				<a href="casino.jsp">Food Item</a>
 
 			
 		</div>
 	</nav>
-	<h1>welcome to Food home</h1>
+	<h1>welcome to Casino</h1>
 </body>
 </html>
