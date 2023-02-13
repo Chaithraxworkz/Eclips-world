@@ -25,7 +25,7 @@
 			src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
 			width="50" height="50" alt=""></a>
 		 
-		 <a href="Egg.jsp">Egg</a> 
+		 <a href="Egg.jsp">Egg</a>               <a href="CM.jsp">Chief Minister</a>
 		
 		<a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
