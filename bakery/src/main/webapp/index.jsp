@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
 		<a class="navbar-brand" href="#"> <img
 			src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
-			width="30" height="30" alt="">
+			width="50" height="50" alt="">
 		</a> <a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
@@ -81,12 +81,12 @@
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">Owner Married
 					 </label>: yes<input type="radio" value="true" name="married" /> No<input
-					type="radio" name="married" value="false">:
+					type="radio" name="married" value="false"/>
 			</div>
 
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">Famous For
-					</label> <textarea rows="3" cols="15"></textarea>
+					</label> <textarea rows="3" cols="10"></textarea>
 			</div>
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">Since
@@ -97,7 +97,6 @@
 			<div>
 				<input type="submit" class="btn btn-dark" value="click"
 					name="click" />
-				
 			</div>
 </body>
 </html>

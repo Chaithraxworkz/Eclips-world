@@ -18,7 +18,7 @@ public class CMDTO
 	private String party;
 	@NotBlank(message="state cannot be Null")
 	private String state;
-	@NotBlank(message="Tenure cannot be Null")
+	//@NotBlank(message="Tenure cannot be Null")
 	@Min(value=1,message="Tenure cannot be less than zero")
 	private Integer tenure;
 	@NotBlank(message="Portfolio cannot be Null")

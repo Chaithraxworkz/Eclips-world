@@ -50,11 +50,12 @@
 				</li>
 			</ul>
 			
-				<a href="casino.jsp">Food Item</a>
+				<a href="casino.jsp">Casino</a>
+				<a href="beach.jsp">Beach</a>
 
 			
 		</div>
 	</nav>
-	<h1>welcome to Casino</h1>
+	<h1>welcome to Goa</h1>
 </body>
 </html>

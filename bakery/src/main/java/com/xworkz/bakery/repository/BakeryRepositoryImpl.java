@@ -13,6 +13,6 @@ public class BakeryRepositoryImpl implements BakeryRepository {
 	@Override
 	public boolean save(BakeryDTO dto) {
 		System.out.println("running the save repository");
-		return false;
+		return true;
 	}
 }

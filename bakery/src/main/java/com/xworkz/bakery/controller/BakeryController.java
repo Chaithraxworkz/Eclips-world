@@ -13,7 +13,6 @@ import com.xworkz.bakery.service.BakeryService;
 @RequestMapping("/snaks")
 public class BakeryController
 {
-	
 	@Autowired
 	private BakeryService bakeryService;
 
@@ -23,7 +22,7 @@ public class BakeryController
 	}
 
 	@PostMapping
-	private String onBakery(BakeryDTO bakeryDTO, Model model) 
+	public String onBakery(BakeryDTO bakeryDTO, Model model) 
 	{
 		System.out.println("running the bakery" + bakeryDTO);
 		model.addAttribute("name", bakeryDTO.getName());
@@ -31,7 +30,7 @@ public class BakeryController
 		model.addAttribute("ownerWifeName", bakeryDTO.getOwnerWifeName());
 		model.addAttribute("famousFor", bakeryDTO.getFamousFor());
 		model.addAttribute("since", bakeryDTO.getSince());
-		model.addAttribute("married", bakeryDTO.isMarried());
+		model.addAttribute("married", bakeryDTO.getMarried());
 		boolean ref = this.bakeryService.validateAndSave(bakeryDTO);
 		System.out.println("ref" + ref);
 		return "bakerySuccess.jsp";

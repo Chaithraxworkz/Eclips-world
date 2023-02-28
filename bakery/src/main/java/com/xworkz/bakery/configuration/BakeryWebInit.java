@@ -22,7 +22,7 @@ public class BakeryWebInit extends AbstractAnnotationConfigDispatcherServletInit
 	protected Class<?>[] getServletConfigClasses() 
 	{
 		System.out.println("running the getServletConfigClasses");
-		return new Class[] {BakeryConfiguration.class};
+		return new Class[]  {BakeryConfiguration.class};
 	}
 
 	@Override
