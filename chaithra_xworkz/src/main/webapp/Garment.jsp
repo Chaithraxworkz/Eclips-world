@@ -30,7 +30,7 @@
 			</div>
 	</nav>
 	
-	<h1>Welcome to Garments Register</h1>
+	<h1>Welcome to Garment Register</h1>
 	
 	<c:forEach items="${errors}" var="e">
 	<br>

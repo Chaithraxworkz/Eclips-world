@@ -1,6 +1,7 @@
 package com.xworkz.chaithra_xworkz.configuration;
 
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
+
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

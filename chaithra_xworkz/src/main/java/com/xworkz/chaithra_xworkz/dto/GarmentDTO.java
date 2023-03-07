@@ -15,7 +15,7 @@ public class GarmentDTO
 	@NotBlank(message = "location cannot be null")
 	@Size(min = 5, max = 25, message = "Name should be more than 5 or less than 25 characters")
 	private String location;
-	private int phNo;
+	private long phNo;
 	@NotBlank(message = "OwnerName cannot be null")
 	@Size(min = 5, max = 30, message = "Name should be more than 5 or less than 30 characters")
 	private String ownerName;

@@ -27,7 +27,7 @@
 				<li style="display: inline-block;padding: 20px;">
 				<a href="index.jsp" class="col-lg-2 col-sm-2">Home</a>
 					<li style="display: inline-block;">
-					<a href="garment"  class="col-lg-2 col-sm-2">Garment Register</a>
+					<a href="garmment"  class="col-lg-2 col-sm-2">Garment Register</a>
 				</ul>
 			</div>
 	</nav>

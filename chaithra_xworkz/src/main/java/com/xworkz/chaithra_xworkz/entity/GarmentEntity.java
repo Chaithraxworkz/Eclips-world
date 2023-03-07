@@ -4,6 +4,7 @@ package com.xworkz.chaithra_xworkz.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -11,6 +12,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "garment_table")
+@NamedQuery(name = "findByName", query = "select ent from GarmentEntity ent where ent.name=:nam")
 public class GarmentEntity 
 {
 	@Id
@@ -21,7 +23,7 @@ public class GarmentEntity
 	@Column(name="g_location")
 	private String location;
 	@Column(name="g_phNo")
-	private int phNo;
+	private long phNo;
 	@Column(name="g_ownerName")
 	private String ownerName;
 	@Column(name="g_noOfEmployees")

@@ -1,6 +1,9 @@
 package com.xworkz.chaithra_xworkz.service;
 
+import java.util.Collections;
+import java.util.List;
 import java.util.Set;
+
 
 import javax.validation.ConstraintViolation;
 
@@ -14,4 +17,17 @@ public interface GarmentService
 	{
 		return null;
 	}
+	default List<GarmentDTO> findByName(String name)
+	{
+		return Collections.emptyList();
+	}
+	Set<ConstraintViolation<GarmentDTO>> validateAndUpdate(GarmentDTO dto);
+
+	default boolean validateAndDelete(int id) 
+	{
+		return false;
+	}
+
+	
+
 }

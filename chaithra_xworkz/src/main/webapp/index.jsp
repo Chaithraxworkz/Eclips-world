@@ -25,12 +25,15 @@
 				alt="" height="60" width="100"> </a>
 				<ul>
 				<li style="display: inline-block;padding: 20px;">
-					<a href="fashion" class="col-lg-2 col-sm-2">Garments Register</a>
+					<a href="fashion" class="col-lg-2 col-sm-2">Garment Register</a>
 					<li style="display: inline-block;">
-					<a href="GarmentSearch.jsp"  class="col-lg-2 col-sm-2">Garments Search</a>
+					<a href="GarmentSearch.jsp"  class="col-lg-2 col-sm-2">Garment Search</a>
+					
+					
+					<a href="GarmentNameSearch.jsp"  class="col-lg-2 col-sm-2">Garment Name Search</a>
 				</ul>
 			</div>
 	</nav>
-	<h1>Welcome to Garment</h1>
+	<h1>Welcome to Garment shop</h1>
 </body>
 </html>
